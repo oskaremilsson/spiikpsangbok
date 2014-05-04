@@ -32,6 +32,7 @@
     <string name="license5">The views and conclusions contained in the software and documentation are those of the
 				authors and should not be interpreted as representing official policies, either expressed
 				or implied, of Patrik Greco.</string>
+	<string name="thanks">Thanks to kd35a for the great app \"Blekingska Nationens Sångbok\". Large chunks of this app is ported from that one.\n</string>
     <string name="title_activity_view_song">ViewSongActivity</string>
 
 </resources>

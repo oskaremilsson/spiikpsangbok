@@ -26,6 +26,19 @@
 					<TextView
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
+							android:text="@string/thanks"
+							android:gravity="center_horizontal"
+							android:layout_span="2"
+							android:singleLine="false"
+							android:layout_weight="1"
+							/>
+				</TableRow>
+
+				<TableRow>
+
+					<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
 							android:text="@string/about"
 							android:gravity="center_horizontal"
 							android:layout_span="2"
