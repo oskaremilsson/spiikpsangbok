@@ -16,23 +16,22 @@
 			android:layout_alignParentEnd="true"
 			android:layout_alignParentBottom="true">
 		<TextView
-			android:id="@+id/list_title"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_margin="5dp"
-			android:textSize="20sp" />
+				android:id="@+id/list_title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:textSize="20sp" />
 		<TextView
-			android:id="@+id/list_info"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_margin="5dp"
-			android:textStyle="italic"
-			android:textColor="#FFFFFF"
-			android:textSize="14sp" />
-
+				android:id="@+id/list_info"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:textStyle="italic"
+				android:textColor="#FFFFFF"
+				android:textSize="14sp" />
 		<ListView
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:id="@+id/listView"/>
+				android:id="@+id/listView" />
 	</LinearLayout>
 </RelativeLayout>

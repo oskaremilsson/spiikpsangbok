@@ -46,10 +46,10 @@ public class MainActivity extends ActionBarActivity
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
-		Fragment fragment = new SongsActivity.SongsFragment().newInstance(position + 1);
+		Fragment fragment = new SongsActivity.SongsFragment().newInstance(null);
 		switch(position) {
 			case 0:
-				fragment = new SongsActivity.SongsFragment().newInstance(position + 1);
+				fragment = new SongsActivity.SongsFragment().newInstance(null);
 				break;
 			case 1:
 				fragment = new AboutActivity.AboutFragment().newInstance(position + 1);

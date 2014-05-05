@@ -3,5 +3,12 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="se.bthstudent.sis.psangbok.app.SongsActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:context="se.bthstudent.sis.psangbok.app.SongsActivity">
+	<fragment
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/songsFragment"
+			tools:layout="@layout/fragment_songs"
+			android:layout_gravity="bottom"
+			class="se.bthstudent.sis.psangbok.app.SongsActivity$SongsFragment" />
+</FrameLayout>

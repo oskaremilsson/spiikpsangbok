@@ -297,7 +297,35 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 		db.close();
 		return songs;
 	}
-	
+
+	/**
+	 * Gives a list of all songs in the database that matches string
+	 * @param query Search string
+	 * @return the list of songs that matches
+	 */
+	public ArrayList<Song> getSongsMatching(String query) {
+		SQLiteDatabase db = getReadableDatabase();
+		String selection = TITLE + " LIKE ?";
+		String[] selectionArgs = new String[] {"%" + query + "%"};
+		Cursor c = db.query(TABLE_NAME, null, selection, selectionArgs, null, null, TITLE);
+
+		ArrayList<Song> songs = new ArrayList<Song>();
+
+		if (c.getCount() > 0) {
+			c.moveToFirst();
+			do {
+				songs.add(new Song(c.getString(c.getColumnIndex(TITLE)), c
+						.getString(c.getColumnIndex(MELODY)), c.getString(c
+						.getColumnIndex(CREDITS)), c.getString(c
+						.getColumnIndex(TEXT)), c.getLong(c.getColumnIndex(ID))));
+			} while (c.moveToNext());
+		}
+
+		c.close();
+		db.close();
+		return songs;
+	}
+
 	/**
 	 * Gives the unique song identified by its <code>id</code>.
 	 * @param id the unique <code>id</code> for the song

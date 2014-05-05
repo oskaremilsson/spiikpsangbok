@@ -35,5 +35,6 @@
 	<string name="thanks">Thanks to kd35a for the great app \"Blekingska Nationens Sångbok\". Large chunks of this app is ported from that one.\n</string>
 	<string name="love">\nBlekinge studentkår &lt;3 Blekingska Nationen\n</string>
     <string name="title_activity_view_song">ViewSongActivity</string>
+	<string name="search">Search</string>
 
 </resources>
