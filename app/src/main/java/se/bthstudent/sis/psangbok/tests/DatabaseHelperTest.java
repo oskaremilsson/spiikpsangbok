@@ -4,6 +4,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
 import android.test.RenamingDelegatingContext;
 
+import java.util.ArrayList;
+
 import se.bthstudent.sis.psangbok.app.DatabaseHelper;
 import se.bthstudent.sis.psangbok.app.Song;
 
@@ -20,6 +22,13 @@ public class DatabaseHelperTest extends AndroidTestCase {
 
 	public void testDatabaseHelper_getSongs() throws Exception {
 		assertNotNull("Could not retrieve JSON from file", mDatabaseHelper.getSongs());
+	}
+
+	public void testDatabaseHelper_getSongsMatching() throws Exception {
+		ArrayList<Song> mSongsMatching = mDatabaseHelper.getSongsMatching("fransyskor");
+		assertNotNull("Could not get any songs when trying to find 'Feta fransyskor'", mSongsMatching);
+		assertEquals("Feta fransyskor", mSongsMatching.get(0).getTitle());
+		assertEquals("Matching sizes of ArrayList when searching", 1, mSongsMatching.size());
 	}
 
 	public void testDatabaseHelper_getSong() throws Exception {
