@@ -56,6 +56,13 @@ public class DatabaseHelperTest extends AndroidTestCase {
 
 	}
 
+	public void testDatabaseHelper_deleteSong() throws Exception {
+		int mDatabaseSize = mDatabaseHelper.getSongs().size();
+		mDatabaseHelper.deleteSong(6L);
+		assertEquals("Database sizes matches", mDatabaseSize - 1, mDatabaseHelper.getSongs().size());
+		assertEquals(new ArrayList<Song>(), mDatabaseHelper.getSongsMatching("fransyskor"));
+	}
+
 	public void testPreconditions() {
 		assertNotNull("mDatabaseHelper is null", mDatabaseHelper);
 	}
