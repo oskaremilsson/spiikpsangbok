@@ -64,6 +64,7 @@ public class SongsActivity extends ActionBarActivity {
     public static class SongsFragment extends Fragment {
 		private static final String ARG_SONG_MATCH = "song_match";
 
+		String BackStack = null;
 		ListView listView;
         DatabaseHelper dbHelper;
 		private ArrayList<Song> songs;
@@ -133,6 +134,7 @@ public class SongsActivity extends ActionBarActivity {
 					Fragment fragment = new ViewSongActivity.ViewSongFragment().newInstance(songs.get(position).getId());
 					 fragmentManager.beginTransaction()
                 .replace(R.id.container, fragment)
+				.addToBackStack(BackStack)
                 .commit();
 				}
 			});
