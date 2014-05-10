@@ -3,8 +3,6 @@ package se.bthstudent.sis.psangbok.tests;
 import se.bthstudent.sis.psangbok.app.DatabaseHelper;
 import se.bthstudent.sis.psangbok.app.Song;
 
-import android.content.Context;
-import android.test.ActivityUnitTestCase;
 import android.test.AndroidTestCase;
 import android.test.RenamingDelegatingContext;
 /**
