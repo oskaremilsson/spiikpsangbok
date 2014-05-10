@@ -1,5 +1,6 @@
 package se.bthstudent.sis.psangbok.app;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
@@ -16,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListAdapter;
@@ -87,7 +89,7 @@ public class SongsActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_songs, container, false);
+            final View rootView = inflater.inflate(R.layout.fragment_songs, container, false);
 			dbHelper = new DatabaseHelper(getActivity());
 			String songMatch;
 			songMatch = getArguments().getString(ARG_SONG_MATCH);
@@ -130,6 +132,9 @@ public class SongsActivity extends ActionBarActivity {
 				@Override
 				public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 					editText.setVisibility(View.INVISIBLE);
+					InputMethodManager inputManager = (InputMethodManager) getActivity()
+			        .getSystemService(Activity.INPUT_METHOD_SERVICE);
+					inputManager.hideSoftInputFromWindow(rootView.getWindowToken(), 0);
 					FragmentManager fragmentManager = getFragmentManager();
 					Fragment fragment = new ViewSongActivity.ViewSongFragment().newInstance(songs.get(position).getId());
 					 fragmentManager.beginTransaction()
