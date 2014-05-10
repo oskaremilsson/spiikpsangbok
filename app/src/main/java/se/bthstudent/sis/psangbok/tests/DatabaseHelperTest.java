@@ -1,5 +1,6 @@
 package se.bthstudent.sis.psangbok.tests;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
 import android.test.RenamingDelegatingContext;
 
@@ -34,6 +35,15 @@ public class DatabaseHelperTest extends AndroidTestCase {
 		assertEquals("Song credits match", testSong.getCredits(), mDatabaseHelper.getSong(testId).getCredits());
 		assertEquals("Song melody match", testSong.getMelody(), mDatabaseHelper.getSong(testId).getMelody());
 		assertEquals("Song text match", testSong.getText(), mDatabaseHelper.getSong(testId).getText());
+	}
+
+	public void testDatabaseHelper_addToDatabaseFromUrl() throws Exception {
+		String testUrl = "https://raw.githubusercontent.com/sikevux/psngbok/issue-7/app/testFiles/testSong.json";
+		int mDatabaseSize = mDatabaseHelper.getSongs().size();
+		mDatabaseHelper.addToDatabaseFromUrl(testUrl, mDatabaseHelper.getWritableDatabase());
+
+		assertEquals("Database sizes matches", mDatabaseSize + 1, mDatabaseHelper.getSongs().size());
+
 	}
 
 	public void testPreconditions() {
