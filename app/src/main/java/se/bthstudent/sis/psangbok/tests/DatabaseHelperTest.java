@@ -52,6 +52,7 @@ public class DatabaseHelperTest extends AndroidTestCase {
 		mDatabaseHelper.addToDatabaseFromUrl(testUrl, mDatabaseHelper.getWritableDatabase());
 
 		assertEquals("Database sizes matches", mDatabaseSize + 1, mDatabaseHelper.getSongs().size());
+		assertEquals("testTitle", mDatabaseHelper.getSong(mDatabaseSize + 1L).getTitle());
 
 	}
 
