@@ -1,10 +1,11 @@
 package se.bthstudent.sis.psangbok.tests;
 
+import android.test.AndroidTestCase;
+import android.test.RenamingDelegatingContext;
+
 import se.bthstudent.sis.psangbok.app.DatabaseHelper;
 import se.bthstudent.sis.psangbok.app.Song;
 
-import android.test.AndroidTestCase;
-import android.test.RenamingDelegatingContext;
 /**
  * Created by sikevux on 5/10/14.
  */
@@ -15,6 +16,7 @@ public class DatabaseHelperTest extends AndroidTestCase {
 		RenamingDelegatingContext context = new RenamingDelegatingContext(getContext(), "test_");
 		mDatabaseHelper = new DatabaseHelper(context);
 	}
+
 	public void testDatabaseHelper_getSongs() throws Exception {
 		assertNotNull("Could not retrieve JSON from file", mDatabaseHelper.getSongs());
 	}
