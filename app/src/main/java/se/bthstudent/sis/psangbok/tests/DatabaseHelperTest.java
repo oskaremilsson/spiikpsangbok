@@ -63,6 +63,11 @@ public class DatabaseHelperTest extends AndroidTestCase {
 		assertEquals(new ArrayList<Song>(), mDatabaseHelper.getSongsMatching("fransyskor"));
 	}
 
+	public void testDatabaseHelper_deleteAllSong() throws Exception {
+		mDatabaseHelper.deleteAllSong();
+		assertEquals(new ArrayList<Song>(), mDatabaseHelper.getSongs());
+	}
+
 	public void testPreconditions() {
 		assertNotNull("mDatabaseHelper is null", mDatabaseHelper);
 	}
