@@ -32,7 +32,7 @@ public class SongsActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_songs);
+        setContentView(R.layout.fragment_songs);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new SongsFragment())
@@ -97,12 +97,11 @@ public class SongsActivity extends ActionBarActivity {
 			if(songMatch != null) {
 				songs = dbHelper.getSongsMatching(songMatch);
 			}
-			TextView textView = (TextView) rootView.findViewById(R.id.list_title);
+			//TextView textView = (TextView) rootView.findViewById(R.id.textViewSearch);
 
-			editText = new EditText(getActivity());
+			//editText = new EditText(getActivity());
+            editText = (EditText) rootView.findViewById(R.id.textViewSearch);
 			editText.setHint("Search");
-			editText.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL);
-			editText.setTextSize(textView.getTextSize()/2);
 
 			editText.addTextChangedListener(new TextWatcher() {
 
@@ -124,7 +123,7 @@ public class SongsActivity extends ActionBarActivity {
 				}
 			});
 
-			container.addView(editText);
+			//container.addView(editText);
 
 			listView = (ListView) rootView.findViewById(R.id.listView);
 			listView.setAdapter(new SongArrayAdapter(getActivity(), songs));
