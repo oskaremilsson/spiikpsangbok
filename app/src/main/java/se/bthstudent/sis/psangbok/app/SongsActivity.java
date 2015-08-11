@@ -127,6 +127,7 @@ public class SongsActivity extends ActionBarActivity {
 
 			listView = (ListView) rootView.findViewById(R.id.listView);
 			listView.setAdapter(new SongArrayAdapter(getActivity(), songs));
+			listView.setFastScrollEnabled(true);
 			listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 				@Override
 				public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
