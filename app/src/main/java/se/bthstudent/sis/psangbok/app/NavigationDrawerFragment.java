@@ -96,6 +96,7 @@ public class NavigationDrawerFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectItem(position);
+                setActionBarTitle(position);
             }
         });
         mDrawerListView.setAdapter(new ArrayAdapter<String>(
@@ -229,17 +230,18 @@ public class NavigationDrawerFragment extends Fragment {
         // Forward the new configuration the drawer toggle component.
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
-
+/*
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         // If the drawer is open, show the global app actions in the action bar. See also
         // showGlobalContextActionBar, which controls the top-left area of the action bar.
         if (mDrawerLayout != null && isDrawerOpen()) {
             inflater.inflate(R.menu.global, menu);
-            showGlobalContextActionBar();
+            //showGlobalContextActionBar();
         }
         super.onCreateOptionsMenu(menu, inflater);
     }
+*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -260,6 +262,18 @@ public class NavigationDrawerFragment extends Fragment {
         actionBar.setDisplayShowTitleEnabled(true);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setTitle(R.string.app_name);
+    }
+
+    private void setActionBarTitle(int position) {
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayShowTitleEnabled(true);
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
+        if(position == 0) {
+            actionBar.setTitle(R.string.title_section1);
+        } else if(position == 1) {
+            actionBar.setTitle(R.string.title_section2);
+        }
+
     }
 
     private ActionBar getActionBar() {

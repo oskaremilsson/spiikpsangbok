@@ -1,6 +1,7 @@
 package se.bthstudent.sis.psangbok.app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
@@ -40,7 +41,7 @@ public class SongsActivity extends ActionBarActivity {
         }
 	}
 
-
+/*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -59,7 +60,7 @@ public class SongsActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
+*/
     /**
      * A Songs fragment containing a simple view.
      */
@@ -101,29 +102,37 @@ public class SongsActivity extends ActionBarActivity {
 
 			//editText = new EditText(getActivity());
             editText = (EditText) rootView.findViewById(R.id.textViewSearch);
-			editText.setHint("Search");
+			editText.setHint("Sök här");
 
 			editText.addTextChangedListener(new TextWatcher() {
 
-				@Override
-				public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {
-				}
+                @Override
+                public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+                }
 
-				@Override
-				public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
-					songs = dbHelper.getSongsMatching(charSequence.toString());
-					listView.setAdapter(new SongArrayAdapter(getActivity(), songs));
-					listView.refreshDrawableState();
-					listView.invalidate();
-				}
+                @Override
+                public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+                    songs = dbHelper.getSongsMatching(charSequence.toString());
+                    listView.setAdapter(new SongArrayAdapter(getActivity(), songs));
+                    listView.refreshDrawableState();
+                    listView.invalidate();
+                }
 
-				@Override
-				public void afterTextChanged(Editable editable) {
+                @Override
+                public void afterTextChanged(Editable editable) {
 
-				}
-			});
+                }
+            });
 
-			//container.addView(editText);
+            editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View v, boolean hasFocus) {
+                    if(!hasFocus) {
+                        //editText.clearFocus();
+                        hideSoftKeyboard(getActivity(), editText);
+                    }
+                }
+            });
 
 			listView = (ListView) rootView.findViewById(R.id.listView);
 			listView.setAdapter(new SongArrayAdapter(getActivity(), songs));
@@ -147,4 +156,8 @@ public class SongsActivity extends ActionBarActivity {
 			return rootView;
         }
 	}
+    public static void hideSoftKeyboard(Activity activity, EditText editText) {
+        InputMethodManager inputMethodManager = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(editText.getWindowToken(), 0);
+    }
 }
