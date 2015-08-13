@@ -1,19 +1,24 @@
-package se.bthstudent.sis.psangbok.tests;
+package se.bthstudent.android.psangbok;
 
-import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
+import android.app.Application;
+import android.test.ApplicationTestCase;
 import android.test.RenamingDelegatingContext;
 
 import java.util.ArrayList;
 
-import se.bthstudent.sis.psangbok.app.DatabaseHelper;
-import se.bthstudent.sis.psangbok.app.Song;
+import se.bthstudent.android.psangbok.DatabaseHelper;
+import se.bthstudent.android.psangbok.Song;
 
 /**
  * Created by sikevux on 5/10/14.
  */
-public class DatabaseHelperTest extends AndroidTestCase {
-	private DatabaseHelper mDatabaseHelper;
+public class DatabaseHelperTest extends ApplicationTestCase<Application> {
+    public DatabaseHelperTest() {
+        super(Application.class);
+    }
+
+    private DatabaseHelper mDatabaseHelper;
 
 	protected void setUp() throws Exception {
 		RenamingDelegatingContext context = new RenamingDelegatingContext(getContext(), "test_");
