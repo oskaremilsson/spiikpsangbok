@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="se.bthstudent.sis.psangbok.tests"
+    package="se.bthstudent.android.psangbok.tests"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -19,6 +19,6 @@
     -->
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="se.bthstudent.sis.psangbok.app"
-        android:label="Tests for se.bthstudent.sis.psangbok.app" />
+        android:targetPackage="se.bthstudent.android.psangbok"
+        android:label="Tests for se.bthstudent.android.psangbok" />
 </manifest>
