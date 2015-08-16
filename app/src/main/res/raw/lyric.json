@@ -24,7 +24,7 @@
 		"lyric":"Ur ett glas vid bordets slut\nliten starköl rinner ut\nLennart stirrar på sitt stop\nbryter nog ihop\nNej han vaknar ur sin nöd\ncyklar hem till Veberöd\npantsätter sin systers föl\ntusen spänn till öl"
 	},
 	{
-		"title":"I natt jag drömde",
+		"title":"Strejk på Pripps",
 		"credits":"",
 		"melody":"I natt jag drömde",
 		"lyric":"I natt jag drömde något som\njag aldrig drömt förut\nJag drömde det var strejk på Pripps\noch alla öl var slut\nJag drömde om en jättesal\ndär ölen stod på rad\nJag drack sådär en femton bärs\noch rete mig och sa:\n\nArmen i vinkel blicken i skyn\nså var det menat whiskey och renat\nVårt mål alkohol\nSKÅL för dem som tål"
@@ -120,12 +120,6 @@
 		"lyric":"Jag trivs bäst med öl i magen\n nära kåren vill jag bo\n Ett par liter öl om dagen\n så att själen kan få ro\n Jag trivs bäst på plats i baren\n med en pilsner i min hand"
 	},
 	{
-		"title":"Vi älskar öl",
-		"credits":"",
-		"melody":"Ser du stjärnan i det blå",
-		"lyric":"Täckt av silver sejdeln full\n gnistar mot oss med sitt guld\n Humle malt är livets salt\n Vi älskar öl\n Källarsval så bärs den in\n för att glädja gommen din\n Släcka törsten stärka rösten\n Till dess lov\n Knubbig blir du men so what\n Gott och roligt har du fått\n Extraturen rensat njuren\n Öl är gott"
-	},
-	{
 		"title":"Öl är gudagott",
 		"credits":"",
 		"melody":"Fjärilen vingad syns på Haga",
@@ -168,10 +162,10 @@
 		"lyric":"I Frankrike dricks det viner\n när tyskarna dricker öl\n underbart de mår\n Men svensken som dricker svin är\n Oss svin emellan:\n Tag en tår"
 	},
 	{
-		"title":"Imsig vimsig",
+		"title":"Imse vimsig",
 		"credits":"",
 		"melody":"Imse vimse spindel",
-		"lyric":"Imsig vimsig blir man utan lite vin\n Klättrar upp på stolen verkar lite piggelin\n Ramlar under bordet sussar en minut\n Vaknar av att vinet i glaset tagit slut"
+		"lyric":"Imse vimsig blir man utan lite vin\n Klättrar upp på stolen verkar lite piggelin\n Ramlar under bordet sussar en minut\n Vaknar av att vinet i glaset tagit slut"
 	},
 	{
 		"title":"Nattvarden",
@@ -222,7 +216,7 @@
 		"lyric":"Gomen längtar efter vin att svalka\n tungan som skall njuta av dess smak\n Innan ned i strupen det ska halka\n ska vi ha en sång att öppna med\n Skål på dig och mig och skål på er alla\n och hjärtligen välkomna till vårt hus\n Tar nånting här slut\n på mer vi ska kalla\n Ät och drick gó vänner utan krus"
 	},
 	{
-		"title":"Akademiker ungar",
+		"title":"Akademikerungar",
 		"credits":"",
 		"melody":"Lambert walk",
 		"lyric":"Spritfest hos Bosse varje helg\n fyll hela gommen och så svälj\n Vi slipper hemmabränt\n för pappa han är docent"
@@ -258,7 +252,7 @@
 		"lyric":"Denna thaft\n är den bätha thaft thythemet haft\n Denna thaft\n är den bäthta dom haft\n Och den thom inte har nån kraft\n han dricka thkall av denna thaft\n Denna thaaaaft\n till landth, till sjöth, till havth, till landth, till sjöth, till havth"
 	},
 	{
-		"title":"En gång i månan",
+		"title":"En gång i månan...",
 		"credits":"",
 		"melody":"Mors lilla Olle",
 		"lyric":"En gång i månan är månen full\n Men aldrig vi sett honom ramla omkull\n Stum av beundran hur mycket han tål\n höjer vi glasen och dricka hans skål"
@@ -280,12 +274,6 @@
 		"credits":"",
 		"melody":"Edelweiss",
 		"lyric":"Aquavit aquavit\n droppar ner uti glaset\n Kall och vit aquavit\n välkomna till kalaset\n |: Glaset i han så dricka vi kan\n dricka för evigt\n Aquavit aquavit\n må du leva för evigt:|"
-	},
-	{
-		"title":"Finsk snapsvisa",
-		"credits":"",
-		"melody":"",
-		"lyric":"sjunges med finsk brytning med bibehållen\n taktkänsla över flertal tonarter\n Hiss-dur Vivace molto fortissimo con spirito\n (17 sekunders tystnad)\n Och så......NU"
 	},
 	{
 		"title":"Formula 1",
@@ -322,12 +310,6 @@
 		"credits":"",
 		"melody":"Vårvindar friska",
 		"lyric":"Vem sade ordet\n SKÅL här vid bordet\n Viskningsvis far det salen\n omkring\n Glasen står klara\n fatten dem bara\n tag dessa rara ljuveliga ting\n Maten som finns vid detta bord\n och nubben den är så rasande god\n Alla i dansen\n tag er till mans en\n klunk ack så grann se\n Kling"
-	},
-	{
-		"title":"Helan går",
-		"credits":"",
-		"melody":"Helan går",
-		"lyric":"Helan går\n sjung hopp faderallanallanlej\n Helan går\n sjung hopp faderallanlej\n Och den som inte helan trår\n han heller inte halvan får\n Helan går (drick)\n Sjung hopp faderallanlej"
 	},
 	{
 		"title":"Huvet slår kopparslag",
@@ -396,7 +378,7 @@
 		"lyric":"Helan rasat ner i våra strupar\n ligger nu på botten mot allén\n I sin ensamhet han bittert klagar\n det är inte lätt att vara en\n Snart är halvan här den härliga supen\n alkoholiskt ren och silverklar\n Dansar som en vårbäck ner genom strupen\n hamnar plask i veckans boudoir"
 	},
 	{
-		"title":"Minnet",
+		"title":"Minne",
 		"credits":"",
 		"melody":"Memory",
 		"lyric":"Minne jag har tappat mitt minne\n Är jag svensk eller finne\n Kommer inte ihåg\n Inne är jag ut´ eller inne\n Jag har luckor i minne\n så här små alkohol\n Men besinn´er\n man tätar det med det brännvin man får\n fastän minner och helan går"
@@ -408,7 +390,7 @@
 		"lyric":"|: Mitt lilla lån det räcker inte\n det går till öl och till brännvin :|\n Till öl och brännvin går det åt\n och lite flickor/pojkar emellanåt\n Mitt lilla lån det räcker inte\n det går till öl och till brännvin"
 	},
 	{
-		"title":"Mors lilla olle",
+		"title":"Mors lilla Olle",
 		"credits":"",
 		"melody":"Mors lilla Olle",
 		"lyric":"Mors lilla olle i skogen gick\n såga ned skogen fast ej han fick\n sågade tre och en halv och gick hem\n kokade renat och brännvin av dem\n Mor fick nu se dem gav till ett vrål\n Kokar du skogen till ren alkohol\n Ja sade Olle och det som jag fällt\n är till en övning som Zeke beställt\n Mors lilla Olle på soffan satt\n Rosor på kinden med blicken var matt\n Läpparna små liksom näsan var blå\n bara jag kunde så skulle jag gå"
@@ -492,12 +474,6 @@
 		"lyric":"Det står en hund på fjärde våningen\n och den tänker hoppa ner\n BANZAI\n Det var en japanesisk självmordshund\n och den hoppar aldrig mer"
 	},
 	{
-		"title":"Irondudes visa",
-		"credits":"",
-		"melody":"Vem kan segla förutan vind",
-		"lyric":"Vem kan festa förutan svinn\n Vem kan spilla på knäna\n Vem kan skiljas från punschen sin\n utan att känna ågren\n Jag kan kräkas förutan vind\n Jag kan spy uti lovart\n men ej skiljas från punschen min\n utan att veta vart"
-	},
-	{
 		"title":"Botvisa",
 		"credits":"",
 		"melody":"Herrarna i hagen",
@@ -552,28 +528,22 @@
 		"lyric":"Punschen gul uppå bordet står\n Punschen snällt på dig vänta\n Om din längtan till punschen går\n ta den utan att flämta"
 	},
 	{
-		"title":"Punschen kommer VARM",
+		"title":"Punschen kommer (Varm)",
 		"credits":"",
 		"melody":"Änkevalsen ur glada änkan",
 		"lyric":"Punschen kommer\n punschen kommer\n god och varm\n Vettet svinner\n droppen rinner\n ner i tarm\n Skål för alla minnen\n vi snart mer ej ha\n Då ett par glas ljuvlig punsch\n vi hunnit ta"
 	},
 	{
-		"title":"Punschen kommer KALL",
+		"title":"Punschen kommer (Kall)",
 		"credits":"",
 		"melody":"Änkevalsen ur glada änkan",
 		"lyric":"Punschen kommer\n punschen kommer\n ljuv och sval\n Glasen imma\n röster stimma\n i vår sal\n Skål för glada minnen\n SKål för varje vår\n Inga sorger finnes mer\n när punsch vi får"
 	},
 	{
-		"title":"Punsch Punsch",
+		"title":"Punsch punsch",
 		"credits":"",
 		"melody":"Ritsch ratsch",
 		"lyric":"|: Punsch punsch filibom bom bom\n filibom bom bom filibom bom bom :|\n Vi har ju både Cederlunds och Carlshamns flagg\n och Grönstedts blå och lilla Caloric\n Det blir för trist med sodavatten sodavatten sodavatten\n Det blir för trist med sodavatten\n nej ge mig lite punsch"
-	},
-	{
-		"title":"Punschvisa",
-		"credits":"",
-		"melody":"Med en enkel tulipan",
-		"lyric":"Nu med en ny och stadig krök\n på armen gör vi försök\n att lyfta glaset att lyfta glaset\n som står och väntar\n Håll blicken fäst vid glasets rand\n och darra inte på hand\n Nu allesammans nu allesammans\n på munnen gläntar\n En liten punschtår så här placerad\n i ena handen sig bättre gör\n än tio liter uppå systemet\n och inga pengar att handla för\n Spill inga droppar på ditt bord\n och spill ej mer några ord\n Nu tar vi punschen nu tar vi punschen\n som står och väntar"
 	},
 	{
 		"title":"Smakprov av himlen",
@@ -612,7 +582,7 @@
 		"lyric":"Kom nu lilla punschen min\n följ nu efter supen\n Snart ska du åka in\n ner igenom strupen\n Till mitt stora magpalats\n där det finns så mycket plats\n Kom nu lilla punschen min\n följ nu efter supen"
 	},
 	{
-		"title":"Ängla punsch",
+		"title":"Änglapunsch",
 		"credits":"",
 		"melody":"Änglamark",
 		"lyric":"Kalla den gudagåva eller himelnektar vad du vill\n punschen den gyllne de gamla oss skänkte\n Vet att så länge som punschen har funnits till\n glädjen den höjde och sorgerna skänkte\n Blund och dröm om en blommande sommarnatt\n svala bersåer där punschen står immig\n Eller en höstdag när Nordan har lekt tafatt\n varm punsch som ångar och ärtsoppa simmig\n Punschen den älskas ju av alla och envar\n Låt festen börja låt punschen få flöda\n Skål alla vänner som har nåt i glaset kvar\n hedra nu minnet av den gamla älgen\n Kalla den gudagåva eller himlanektar vad du vill\n punschen den gyllne som får oss att drömma\n Fukta din strupe låt inte flaskan stå still\n skåla för punschen och glasen vi tömma"
@@ -648,7 +618,7 @@
 		"lyric":"Lille Olle skulle gå på Disco\n men han hade inte någon sprit\n Lille Olle fixá lite hembränt\n Lille Olle gick då på en nit\n La la la ...\n Lille Olle började att festa\n spriten blandade han ut mer MER\n Lille Olle drack upp hela bålen\n Lille Olle ser nu inte mer\n La la la ...\n Lille Olle köpte sig en ledhund\n den var ful och även ganska trind\n Olles ledhund drack upp femton flaskor\n Olles ledhund är nu också blind\n La la la ...\n Lille Olle började med droger\n blandade sin LSD med juice\n Lille Olles hjärna stod i lågor\n Lille Olle dog av överdos\n La la la ...\n Lille Olle sitter nu i himlen\n capsa kan man göra även där\n Lille Olle skaffa sig en ölback\n Capsar nu men gud och Sankte Per\n La la la ..."
 	},
 	{
-		"title":"Rövarvisan",
+		"title":"Rövarevisan",
 		"credits":"",
 		"melody":"Kamomilla stad",
 		"lyric":"Nu drar vi ut på rövarstråt ja vi ska ut och röva\n men bara sånt vi dricka kan\n och sånt som gör oss döva\n Nu är det mörkt i stad och land\n nu sover folk så gott de kan\n Nu drar vi iväg med vår alkoholtörst\n både Kasper och Jesper och Jonathan\n Pudunpum...\n Vi går till Kamomillastad till alkoholbutiken\n Och rövar punsch och aquavit\n så ingen blir besviken\n Det händer nog att Jonathan\n vill ha en Whiskyhutt ibland\n men annars så tar vi så lite vi kan\n både Kasper och Jesper och Jonathan\n Pudunpum...\n Vi vet så väl vad vi vill ha det finns så många sorter\n hos Alko tar vi äppelvin och polens bästa porter\n och Gordon´s gin är gott minsann\n men rysk champange går också an\n men annars så tar vi så lite vi kan\n både Kasper och Jesper och Jonathan\n Pudunpum..."
@@ -666,7 +636,7 @@
 		"lyric":"Hejsan morsan hejsan farsan\n Här är brev från eran Tarzan\n Jag ville skriva och berätta\n hur jag klarar studierna med lätta\n Redovisning gick i mars\n bäst såklart i våran klass\n Men jag tänkte det var så kul\n att jag repeterar en gång till nu över jul\n I förra veckan hände en kul grej\n vid dataskärmen jag satt och öva mig\n Ett litet kodord och allt stod klart\n allt från ubåtsjakt till Fermaffär var uppenbart\n Jag handlar böcker verenda vecka\n men för att stoppa denna sedelläcka\n läser jag dem över natten\n lämnar igen dem för att ha råd med bröd och vatten\n Snälla morsan kan du sända\n den där levern som förr fick magen min att vända\n Före lantis jag visste ej vad läskigt var\n De skulle glädja de smaklökar som lever kvar\n Nej nu måste jag nog sluta\n för att hinna får jag kuta\n Ner till puben ta en bärs\n gäller bara att få slut på denna vers"
 	},
 	{
-		"title":"Full i dag och full imorgon",
+		"title":"Full idag och full imorgon",
 		"credits":"",
 		"melody":"Oh my darling",
 		"lyric":"Jag är skåning, född i Danmark\n Finland är mitt fosterland\n Snackar tyska, som en jude\n Fast min far var Engelsman\n Full idag och full imorgon\n full varenda jävla dag\n Jag ska aldrig släppa flaskan\n jag ska aldrig gifta mig\n Och på min gravsten\n och på min gravsten\n skall det ristas på latin\n att här under vilar stoftet\n av ett jävla fyllesvin\n Och alla maskar\n och alla maskar\n som ska äta på min kropp\n de ska bli så jävla fulla\n att de aldrig hittar opp\n Och i himlen\n och i himlen\n ska jag supa hela dan\n så att själva Guds fader\n skickar ner mig till själve Fan\n Hos själve fan\n Hos själve fan\n ska jag knulla varje da\n jag ska knulla varenda jävel\n jag ska knulla själve fan!"
@@ -720,12 +690,6 @@
 		"lyric":"Jag var full en gång för länge sen\n på knäna kröp jag hem\n Varje dike var för mig ett vilohem\n I varje skåp i varje vrå\n hade jag en liten vän\n ifrån renat upp till nittisex procent\n Pumpa läns\n Jag var full en gång för länge sen\n på knäna kröp jag hem\n och som sällskap hade jag en elefant\n Elefanten spruta vatten\n men jag trodde det var vin/öl/sprit\n sedan dess har alla kallat mig för svin/knöl/skit\n mera vin/öl/sprit"
 	},
 	{
-		"title":"Big piece of Joel",
-		"credits":"",
-		"melody":"Trampa på gasen",
-		"lyric":"Min gode vän Joel\n han är en god kamrat\n Han har äpplen fram\n och en kulvert bak\n Min gode vän Joel\n har ser så lustig ut\n Man kan kalla honom Knut\n om man vill om man vill"
-	},
-	{
 		"title":"Lambo",
 		"credits":"",
 		"melody":"Lambo",
@@ -750,22 +714,10 @@
 		"lyric":"1 2 sjuttiofem 6 7 sjuttiofem 6 7 sjuttiofem 6 7\n 1 2 sjuttiofem 6 7 sjuttiofem 6 73\n 107 103 102\n 107 6 19 27\n 17 18 16 15\n 13 19 14 17\n 19 16 15 11\n 8 42"
 	},
 	{
-		"title":"Åh Carola",
-		"credits":"",
-		"melody":"Någonstans i Sverige",
-		"lyric":"Hennes ben är för korta\n Hennes kjol är för lång\n Hennes bröst är för stora\n Hennes blus är för trång\n Men det gör detsamma\n för hon är vår idol\n Åh Carola Häggqvist"
-	},
-	{
 		"title":"Till bordsgrannen",
 		"credits":"",
 		"melody":"My bonnie",
 		"lyric":"Damer\n Min bordsgrabb har druckit för mycket\n Min bordsgrabb har blivit rätt full\n Han är nog för full för mitt tycke\n för han bara ramlar omkull\n Ramlar ramlar han bara ramlar omkull omkull\n Ramlar ramlar han bara ramlar omkull\n Herrar\n Min bordsdam hon är passionerad\n Hon är en rätt påflugen tjej\n Och jag blir ju ganska generad\n för hon bara tafsar på mig\n Tafsar tafsar hon bara tafsar på mig på mig\n Tafsar tafsar hon bara tafsar på mig"
-	},
-	{
-		"title":"Kalmarevisan",
-		"credits":"",
-		"melody":"Kalmarevisan",
-		"lyric":"För uti Kalmarestad\n ingen jävel tar ett bad\n förrän julafton\n Hej dick\n Hej dack\n Jag slog i\n och vi drack\n hej dickom dickom dack\n hej dickom dickom dack\n För uti Kalmarestad\n ja där finns det ingen kvast\n förrän lördagen\n |: När som bonden kommer hem\n kommer bondekvinnan ut :|\n och är stor i stin trut\n Hej dick...\n |: Vad ska bonden ha till mat\n sura sillar och potat :|\n Det blir sillsalat\n Hej dick...\n |: Var är pengarna du fått\n Ja dom har jag supit upp :|\n uppå Kalmare slott\n Hej dick...\n |: Jag ska mäla dig an\n för vår kronbefallningsman :|\n Och du ska få skam\n Hej dick...\n |: Kronbefallningsmannen vår\n satt på krogen igår :|\n och var full som ett får\n Hej dick...\n |: Knullar man en Ekonom\n ja då får man kondylom :|\n Om man ej har kondom\n Hej dick..."
 	},
 	{
 		"title":"Vit vecka",
@@ -774,13 +726,7 @@
 		"lyric":"Jag drömmer om en vit vecka\n Sju dagar utan alkohol\n Tänk att bara skåla\n i juice och cola\n och sedan minnas allt man gjort\n Jag drömmer om en vit vecka\n det finns en gräns för vad jag tål\n Jag vill inte\n dricka mer\n så låt nästa vecka vara vit\n O gamla klang och jubeltid\n ditt minne skall förbliva\n och än åt livets bistra strid\n ett rosigt skimmer giva\n Snart tystnar allt vårt yra skämt\n vår sång blir stum vårt glam förstämt\n o jerum jerum jerum\n o quae mutatio rerum\n Var äro de som kunde allt\n blott ej sin ära svika\n som voro män av äkta halt\n och världens herrar lika\n De drogo bort från vin och sång\n till vardagslivets tråk och tvång"
 	},
 	{
-		"title":"När kaffet är serverat",
-		"credits":"",
-		"melody":"Mössens julafton",
-		"lyric":"När kaffet är serverat\n och maten tagit slut\n och alla dom som blivit\n alltför fulla kastats ut\n Då vill vi ha ett nytt glas\n med något gult och kallt\n som höjer och förbättrar\n vår promillehalt\n Arrak etanol och sackaros\n med salt och vatten blir\n den bästa blandning som kan fås\n Söt och smetig rent utan viskös\n En sexton sjutton glas\n så blir du medvetslös"
-	},
-	{
-		"title":"Sista punsch-visa",
+		"title":"Sista punschvisan",
 		"credits":"",
 		"melody":"Auld Lang Syne",
 		"lyric":"När punschen så småningom är slut\n och vår flaska blivit tom\n då vänder vi den upp och ner\n till dess inget rinner ur\n |: Så slickar vi så slickar vi\n båd´ utanpå och i\n och finns det ändå något kvar\n får det va´ till sämre dar :|"
@@ -790,24 +736,6 @@
 		"credits":"",
 		"melody":"Kamomilla stad",
 		"lyric":"Ja punschen är och punschen var\n och punschen skall förbliva\n En lidelse vi alla har\n som inget kan förbliva\n Ja punschen tinar opp såväl\n som svalkar både kropp och själ\n Den botar begären och lindrar besvären\n Ja punschen den gör både gott och väl"
-	},
-	{
-		"title":"Theobald Thor",
-		"credits":"",
-		"melody":"Theobald Thor",
-		"lyric":"En man som hette Theobald Thor\n han var en skicklig tamburmajor\n Succén han gjorde var alltid stor\n när han snurra och svängde sin kuk\n Det var en stor kuk\n lång kraftig och tung\n Från dess topp till dess rot\n var den tre fyra fot\n och en medelstor ryggsäck till pung\n pung pung pungeli-pung, pung pung...\n En dag gick Theobald ut en stund,\n för att lufta sin lem i en lummig lund.\n Han mötte en söt liten dam med hund\n som fick se honom svänga sin kuk\n Det var en...\n Han pröva' då ett trick han lärt\n han släppte sin lem med en kraftig snärt\n i huv'et på hunden som avled tvärt\n när han snurra och svängde sin kuk\n Det var en...\n Men damen hon blev helt bestört\n hon svor och skrek nått oerhört\n Så det var nog ingen lyckad flört\n att snurra och svänga sin kuk\n Det var en...\n Till följd av damens arg gnäll\n han anhölls redan samma kväll\n och sattes i en ensam cell\n där han snurra och svängde sin kuk\n Det var en...\n När målet kom i rätten opp\n sa åklagarna: \"Det får bli stopp\n man får ej vifta med sin snopp\n och snurra och svänga sin kuk\"\n Det var en...\n Men domarn han var tolerant\n han sa: \"Själv gör jag likadant\n Jag tycker det är intressant\n att snurra och svänga min kuk\"\n Han har en...\n Så Theobald han släpptes fri\n och liksom domarn tycker vi\n att tjejer de ska skita i\n var man snurrar och svänger sin kuk\n Jag har en..."
-	},
-	{
-		"title":"I Put my hands / I met a whore in the park one day",
-		"credits":"",
-		"melody":"When Jonny Comes Marching Home",
-		"lyric":"|: I met a whore in the park one day,\n Yo ho, yo ho. :|\n I met a whore in the park one day,\n She said hey, you wanna lay?\n Get in, Get out, quit fuckin' about,\n Yo ho, yo ho, yo ho.\n |: I put my hand upon her toe,\n Yo ho, yo ho, :|\n I put my hand upon her toe,\n She said hey you're way to low.\n Get in get out...\n |: I put my hand upon her knee,\n Yo ho, yo ho, :|\n I put my hand upon her knee,\n she said hey you're teasin' me\n Get in get out...\n |: I put my hand upon her thigh,\n Yo ho, yo ho, :|\n I put my hand upon her thigh,\n She said hey, you're way to shy\n Get in get out...\n |: I put my hand upon her tit,\n Yo ho, yo ho, :|\n I put my hand upon her tit,\n She said, het, you're getting it\n Get in get out...\n |: I put my hand upon her twat,\n Yo ho, yo ho, :|\n I put my hand upon her twat,\n She said hey, you hit the spot\n Get in get out...\n |: I put my dick into her mouth,\n Yo ho, yo ho, :|\n I put my dick into her mouth,\n She said mmm, mhmh, mhmhm...\n Get in get out...\n |: Now she lies in a wooden box,\n Yo ho, yo ho, :|\n Now she lies in a wooden box,\n That's what you get for sucking cocks!\n Get in get out...\n |: I dig her up every now and then,\n Yo ho, yo ho, :|\n I dig her up every now and then,\n I fucked her once, I'll fuck her again!\n Get in get out...\n |: The worms are eating her through and through\n Yo ho, yo ho, :|\n The worms are eating her through and through,\n That's more whores for me to screw!\n |: And we all, we went to hell,\n Yo ho, yo ho, :|\n And we all, we went to hell,\n Fucking the devil, his wives as well\n Get in get out..."
-	},
-	{
-		"title":"Maktövertagandet",
-		"credits":"",
-		"melody":"Glory glory Hallelujah",
-		"lyric":"|: Vi ska tvinga Göran Persson bada Barsebäcks Bassäng :| (x3)\n Efter Maktövertagandet \n |: Vi ska tvinga Gudrun Schyman åka ubåt till Moskva :| (x3)\n Efter Maktövertagandet\n |: Vi ska tvinga Lisbet Palme gräva upp sin döde man :| (x3)\n Efter Maktövertagandet\n |: Vi ska tvinga Håkan Juholt raka av sig sin mustasch :| (x3)\n Efter Maktövertagandet\n |: Vi ska tvinga Janne Björklund plocka högskolepoäng :| (x3)\n Efter Maktövertagandet\n |: Vi ska tvinga Svenske Jimmy på en resa till irak :| (x3)\n Efter Maktövertagandet\n |: Vi ska tvinga Fredde Reinfeldt tala med finsk dialekt :| (x3)\n Efter Maktövertagandet\n |: Vi ska göra Göran Persson till en JÄTTESTOR KEBAB :| (x3)\n Efter Maktövertagandet\n |: Glory glory Hallelujah :| (x3)\n And the Blue Revolution came, TWICE"
 	},
 	{
 		"title":"Bakom Gluggen",
