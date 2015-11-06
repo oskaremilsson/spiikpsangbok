@@ -1,7 +1,6 @@
-package se.bthstudent.sis.psangbok.app;
+package se.bthstudent.android.psangbok;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,8 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
-
 
 
 public class AboutActivity extends ActionBarActivity {
@@ -18,10 +15,10 @@ public class AboutActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_fragment);
+        setContentView(se.bthstudent.android.psangbok.R.layout.fragment_about);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new AboutFragment())
+                    .add(se.bthstudent.android.psangbok.R.id.container, new AboutFragment())
                     .commit();
         }
     }
@@ -30,7 +27,7 @@ public class AboutActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.about, menu);
+        getMenuInflater().inflate(se.bthstudent.android.psangbok.R.menu.about, menu);
         return true;
     }
 
@@ -40,7 +37,7 @@ public class AboutActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == se.bthstudent.android.psangbok.R.id.action_settings) {
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -69,7 +66,7 @@ public class AboutActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_about, container, false);
+            View rootView = inflater.inflate(se.bthstudent.android.psangbok.R.layout.fragment_about, container, false);
             return rootView;
         }
     }

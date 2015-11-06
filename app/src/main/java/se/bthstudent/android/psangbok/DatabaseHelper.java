@@ -1,4 +1,4 @@
-package se.bthstudent.sis.psangbok.app;
+package se.bthstudent.android.psangbok;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package se.bthstudent.sis.psangbok.app;
+package se.bthstudent.android.psangbok;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class SongArrayAdapter extends ArrayAdapter<Song> {
 	private Activity context;
 
 	public SongArrayAdapter(Activity context, ArrayList<Song> objects) {
-		super(context, R.layout.fragment_songs, objects);
+		super(context, R.layout.songs_row, objects);
 		this.songs = objects;
 		this.context = context;
 	}
@@ -22,7 +22,7 @@ public class SongArrayAdapter extends ArrayAdapter<Song> {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		LayoutInflater inflater = context.getLayoutInflater();
-		View rowView = inflater.inflate(R.layout.fragment_songs, null, true);
+		View rowView = inflater.inflate(R.layout.songs_row, null, true);
 		
 		TextView title = (TextView)rowView.findViewById(R.id.list_title);
 		title.setText(songs.get(position).getTitle());
