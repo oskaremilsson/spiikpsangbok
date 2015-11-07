@@ -2,8 +2,8 @@
 <resources>
 	<string name="databaseName">SpiikSangBok</string>
     <string name="app_name">Med Mössan På Sné</string>
-    <string name="title_section1">Psånger</string>
-    <string name="title_section2">Psånger från Blekinge studentkår</string>
+    <string name="title_section1">Med Mössan På Sné</string>
+    <string name="title_section2">Blekinge studentkårs Psångbok</string>
 	<string name="title_section3">Om appen</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -41,5 +41,6 @@
     <string name="title_activity_songs__bsk_">Songs_Bsk_Activity</string>
 	<string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
+    <string name="title_activity_splash">Splash</string>
 
 </resources>
