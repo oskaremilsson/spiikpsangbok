@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v4.app.Fragment;
@@ -46,10 +46,11 @@ public class ViewSongActivity extends ActionBarActivity {
      * A ViewSong fragment containing a simple view.
      */
     public static class ViewSongFragment extends Fragment {
-		public static ViewSongFragment newInstance(long songId) {
+		public static ViewSongFragment newInstance(long songId, String databaseName) {
             ViewSongFragment fragment = new ViewSongFragment();
             Bundle args = new Bundle();
             args.putLong("song", songId);
+            args.putString("databaseName", databaseName);
             fragment.setArguments(args);
             return fragment;
         }
@@ -65,7 +66,8 @@ public class ViewSongActivity extends ActionBarActivity {
 			TextView text = (TextView)rootView.findViewById(R.id.song_text);
 
 		long songId = getArguments().getLong("song");
-		DatabaseHelper dbHelper = new DatabaseHelper(getActivity());
+        String databaseName = getArguments().getString("databaseName");
+		DatabaseHelper dbHelper = new DatabaseHelper(getActivity(), R.raw.bsk_lyric, databaseName);
 		Song s = dbHelper.getSong(songId);
 		String stringTitle;
 			stringTitle = s.getTitle();

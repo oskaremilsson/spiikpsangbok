@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
@@ -101,6 +101,7 @@ public class NavigationDrawerFragment extends Fragment {
                 new String[]{
                         getString(R.string.title_section1),
                         getString(R.string.title_section2),
+                        getString(R.string.title_section3),
                 }));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
@@ -121,7 +122,7 @@ public class NavigationDrawerFragment extends Fragment {
         mDrawerLayout = drawerLayout;
 
         // set a custom shadow that overlays the main content when the drawer opens
-        //mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+        //mDrawerLayout.setDrawerShadow(R.drawable.ic_drawer);
         // set up the drawer's list view with items and click listener
 
         ActionBar actionBar = getActionBar();
@@ -132,9 +133,9 @@ public class NavigationDrawerFragment extends Fragment {
         // between the navigation drawer and the action bar app icon.
         mDrawerToggle = new ActionBarDrawerToggle(
                 getActivity(),                    /* host Activity */
-                mDrawerLayout,                    /* DrawerLayout object */
-                R.string.navigation_drawer_open,  /* "open drawer" description for accessibility */
-                R.string.navigation_drawer_close  /* "close drawer" description for accessibility */
+                mDrawerLayout,                  /* DrawerLayout object */
+                R.string.drawer_open,  /* "open drawer" description */
+                R.string.drawer_close /* "close drawer" description for accessibility */
         ) {
             @Override
             public void onDrawerClosed(View drawerView) {
@@ -267,6 +268,9 @@ public class NavigationDrawerFragment extends Fragment {
             actionBar.setTitle(R.string.title_section1);
         } else if(position == 1) {
             actionBar.setTitle(R.string.title_section2);
+        }
+        else if(position == 2) {
+            actionBar.setTitle(R.string.title_section3);
         }
 
     }

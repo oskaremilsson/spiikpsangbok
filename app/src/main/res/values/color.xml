@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="gray">#686868</color>
+	<color name="spiikred">#df1423</color>
+	<color name="spiikyellow">#f5f704</color>
+	<color name="white">#FFFFFF</color>
 </resources>

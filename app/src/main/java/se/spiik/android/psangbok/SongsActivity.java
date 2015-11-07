@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import android.app.Activity;
 import android.content.Context;
@@ -81,7 +81,7 @@ public class SongsActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             final View rootView = inflater.inflate(R.layout.fragment_songs, container, false);
-			dbHelper = new DatabaseHelper(getActivity());
+			dbHelper = new DatabaseHelper(getActivity(), R.raw.lyric, "spiikSanger");
 			String songMatch;
 			songMatch = getArguments().getString(ARG_SONG_MATCH);
 			songs = dbHelper.getSongs();
@@ -135,7 +135,7 @@ public class SongsActivity extends ActionBarActivity {
 			        .getSystemService(Activity.INPUT_METHOD_SERVICE);
 					inputManager.hideSoftInputFromWindow(rootView.getWindowToken(), 0);
 					FragmentManager fragmentManager = getFragmentManager();
-					Fragment fragment = new ViewSongActivity.ViewSongFragment().newInstance(songs.get(position).getId());
+					Fragment fragment = new ViewSongActivity.ViewSongFragment().newInstance(songs.get(position).getId(), "spiikSanger");
 					 fragmentManager.beginTransaction()
                 .replace(R.id.container, fragment)
 				.addToBackStack(BackStack)

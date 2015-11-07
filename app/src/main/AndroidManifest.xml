@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="se.bthstudent.android.psangbok" >
+    package="se.spiik.android.psangbok" >
 
-	<uses-permission
-			android:name="android.permission.INTERNET" /> <!-- For adding songs by URL -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- For adding songs by URL -->
+    <!--android:debuggable="false"-->
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-		android:debuggable="false">
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="se.bthstudent.android.psangbok.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,16 +21,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="se.bthstudent.android.psangbok.AboutActivity"
+            android:name=".AboutActivity"
             android:label="@string/title_activity_about_fragment" >
         </activity>
         <activity
-            android:name="se.bthstudent.android.psangbok.SongsActivity"
+            android:name=".SongsActivity"
             android:label="@string/title_activity_songs" >
         </activity>
         <activity
-            android:name="se.bthstudent.android.psangbok.ViewSongActivity"
+            android:name=".ViewSongActivity"
             android:label="@string/title_activity_view_song" >
+        </activity>
+        <activity
+            android:name=".Songs_Bsk_Activity"
+            android:label="@string/title_activity_songs__bsk_">
         </activity>
     </application>
 

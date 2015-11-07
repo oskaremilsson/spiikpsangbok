@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Psångbok</string>
+	<string name="databaseName">SpiikSangBok</string>
+    <string name="app_name">Med Mössan På Sné</string>
     <string name="title_section1">Psånger</string>
-    <string name="title_section2">Om appen</string>
+    <string name="title_section2">Psånger från Blekinge studentkår</string>
+	<string name="title_section3">Om appen</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
@@ -11,7 +12,8 @@
     <string name="title_activity_about_fragment">AboutFragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_songs">SongsActivity</string>
-    <string name="about">BSK Psångbok - v. 0.0.1\n\n
+    <string name="about">Med Mössan På Sné (SPIIKs Psångbok) - v. 0.0.1\n\n
+		Copyright 2015 Oskar Emilsson. All rights reserved.\n
 		Copyright 2014 Patrik Greco. All rights reserved.\n</string>
     <string name="license1">Redistribution and use in source and binary forms, with or without modification, are
 	permitted provided that the following conditions are met:</string>
@@ -33,8 +35,11 @@
 				authors and should not be interpreted as representing official policies, either expressed
 				or implied, of Patrik Greco.</string>
 	<string name="thanks">Thanks to kd35a for the great app \"Blekingska Nationens Sångbok\". Large chunks of this app is ported from that one.\n</string>
-	<string name="love">\nBlekinge studentkår &lt;3 Blekingska Nationen\n</string>
+	<string name="love">\nSPIIK &lt;3 Blekinge studentkår\n</string>
     <string name="title_activity_view_song">ViewSongActivity</string>
 	<string name="search">Search</string>
+    <string name="title_activity_songs__bsk_">Songs_Bsk_Activity</string>
+	<string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
 
 </resources>

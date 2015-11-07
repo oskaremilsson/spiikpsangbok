@@ -5,7 +5,18 @@
     android:layout_height="match_parent"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="se.bthstudent.android.psangbok.SongsActivity$PlaceholderFragment">
+    android:background="@color/white"
+    tools:context="se.spiik.android.psangbok.SongsActivity$PlaceholderFragment">
+
+    <!--android:background="@drawable/spiik_logo"-->
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/spiik_logo"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/textViewSearch"
+        ></ImageView>
 
     <EditText
         android:id="@+id/textViewSearch"

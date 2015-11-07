@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
@@ -47,11 +47,16 @@ public class MainActivity extends ActionBarActivity
 		Fragment fragment = new SongsActivity.SongsFragment().newInstance(null);
 		switch(position) {
 			case 0:
+                //this.deleteDatabase(getString(R.string.databaseName));
 				fragment = new SongsActivity.SongsFragment().newInstance(null);
 				break;
 			case 1:
-				fragment = new AboutActivity.AboutFragment().newInstance(position + 1);
+                //this.deleteDatabase(getString(R.string.databaseName));
+				fragment = new Songs_Bsk_Activity.SongsFragment().newInstance(null);
 				break;
+            case 2:
+                fragment = new AboutActivity.AboutFragment().newInstance(position + 1);
+                break;
 		}
         fragmentManager.beginTransaction()
                 .replace(R.id.container, fragment)
@@ -65,6 +70,9 @@ public class MainActivity extends ActionBarActivity
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2);
+                break;
+            case 3:
+                mTitle = getString(R.string.title_section3);
                 break;
         }
     }

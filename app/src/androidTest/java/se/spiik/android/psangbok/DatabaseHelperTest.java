@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import android.test.AndroidTestCase;
 import android.app.Application;
@@ -7,8 +7,8 @@ import android.test.RenamingDelegatingContext;
 
 import java.util.ArrayList;
 
-import se.bthstudent.android.psangbok.DatabaseHelper;
-import se.bthstudent.android.psangbok.Song;
+import se.spiik.android.psangbok.DatabaseHelper;
+import se.spiik.android.psangbok.Song;
 
 /**
  * Created by sikevux on 5/10/14.
@@ -22,7 +22,7 @@ public class DatabaseHelperTest extends ApplicationTestCase<Application> {
 
 	protected void setUp() throws Exception {
 		RenamingDelegatingContext context = new RenamingDelegatingContext(getContext(), "test_");
-		mDatabaseHelper = new DatabaseHelper(context);
+		//mDatabaseHelper = new DatabaseHelper(context);
 	}
 
 	public void testDatabaseHelper_getSongs() throws Exception {

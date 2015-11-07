@@ -1,4 +1,4 @@
-package se.bthstudent.android.psangbok;
+package se.spiik.android.psangbok;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,14 +23,15 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-	private static final int DATABASE_VERSION = 2;
-	private static final String DATABASE_NAME = "BlekingskaSangBok";
+	private static final int DATABASE_VERSION = 3;
+	//private static final String DATABASE_NAME = "SpiikSangBok";
 	private static final String TABLE_NAME = "songs";
 	static final String ID = "_id";
 	static final String TITLE = "title";
 	static final String MELODY = "melody";
 	static final String CREDITS = "credits";
 	static final String TEXT = "text";
+	private int jsonFile = -1; //R.raw.bsk_lyric;
 	
 	static final String CREATE_TABLE_V1 = "CREATE TABLE " + TABLE_NAME + " (" + ID
 	+ " INTEGER PRIMARY KEY AUTOINCREMENT," + TITLE + " TEXT,"
@@ -43,9 +44,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	private static final String TAG = "DatabaseHelper";
 	private Context context;
 	
-	public DatabaseHelper(Context context) {
-		super(context, DATABASE_NAME, null, DATABASE_VERSION);
+	public DatabaseHelper(Context context, int jsonFile, String databaseName) {
+		super(context, databaseName, null, DATABASE_VERSION);
 		this.context = context;
+		this.jsonFile = jsonFile;
 	}
 
 	@Override
@@ -130,7 +132,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	 */
 	private String retrieveFromFile() {
 		try {
-			InputStream is =  this.context.getResources().openRawResource(R.raw.lyric);
+			InputStream is =  this.context.getResources().openRawResource(this.jsonFile);
 			byte[] buffer = new byte[is.available()];
 			while (is.read(buffer) != -1);
 			return new String(buffer);
