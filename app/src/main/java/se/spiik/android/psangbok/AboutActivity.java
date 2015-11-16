@@ -17,6 +17,7 @@ public class AboutActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(se.spiik.android.psangbok.R.layout.fragment_about);
+
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(se.spiik.android.psangbok.R.id.container, new AboutFragment())
@@ -55,6 +56,7 @@ public class AboutActivity extends ActionBarActivity {
 		 * number.
 		 */
 		public static AboutFragment newInstance(int sectionNumber) {
+            String BackStack = null;
 			AboutFragment fragment = new AboutFragment();
 			Bundle args = new Bundle();
 			args.putInt(ARG_SECTION_NUMBER, sectionNumber);
@@ -68,6 +70,7 @@ public class AboutActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(se.spiik.android.psangbok.R.layout.fragment_about, container, false);
+
             return rootView;
         }
     }

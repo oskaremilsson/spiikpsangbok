@@ -34,7 +34,7 @@
 					android:layout_height="wrap_content"
 					android:text="@string/button_db"
 					android:id="@+id/button_db"
-					android:onClick="rebuildDatabase"
+					android:onClick="resetDB"
 					android:layout_column="1" />
 				<TableRow>
 
