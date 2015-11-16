@@ -29,7 +29,13 @@
 			<TableLayout
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content">
-
+				<Button
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/button_db"
+					android:id="@+id/button_db"
+					android:onClick="rebuildDatabase"
+					android:layout_column="1" />
 				<TableRow>
 
 					<TextView
@@ -55,7 +61,6 @@
 							android:layout_weight="1"
 							android:textStyle="bold"/>
 				</TableRow>
-
 
 				<TableRow>
 

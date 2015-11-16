@@ -18,7 +18,7 @@ import android.view.WindowManager;
 public class Splash extends Activity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 5000;
+    private final int SPLASH_DISPLAY_LENGTH = 500;
 
     /** Called when the activity is first created. */
     @Override
@@ -27,7 +27,7 @@ public class Splash extends Activity {
         setContentView(R.layout.activity_splash);
         MediaPlayer mp;// = new MediaPlayer();
         mp = MediaPlayer.create(this, R.raw.splash);
-        mp.start();
+        //mp.start();
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/

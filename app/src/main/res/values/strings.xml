@@ -42,5 +42,6 @@
 	<string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
     <string name="title_activity_splash">Splash</string>
+	<string name="button_db">Uppdatera databas</string>
 
 </resources>
