@@ -25,7 +25,6 @@ public class AboutActivity extends ActionBarActivity {
         }
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -70,7 +69,12 @@ public class AboutActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(se.spiik.android.psangbok.R.layout.fragment_about, container, false);
-
+            Button button = (Button) rootView.findViewById(R.id.button_db);
+            button.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    DatabaseDestroyer2000 kek = new DatabaseDestroyer2000(v.getContext(), "spiikSanger");
+                }
+            });
             return rootView;
         }
     }
